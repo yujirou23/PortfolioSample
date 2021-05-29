@@ -1,7 +1,7 @@
 # PortfolioSample
 ===
 
-[webサイトを見る]ポートフォリオのサンプルです。
+ポートフォリオのサンプルです。
 
 ## デモ
-https://kaji-portfolio.herokuapp.com/
+[webサイトを見る]https://kaji-portfolio.herokuapp.com/
