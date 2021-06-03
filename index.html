@@ -1,112 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- 
-        レスポンシブの設定
-        viewportの設定
-     -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- このさいとがこのサイトが何か　をを説明する場所 -->
-    <meta name="description" content="テック太郎の自己紹介">
-    <!-- タイトルの設定 -->
-    <title>PORTFOLIO</title>
-    <!-- スタイルシート -->
-    <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<title>かんたん決済</title>
 </head>
 <body>
-    <!-- 
-        headerの作成 
-        ロゴのロゴの設定をします
-        h1 a span を使う
-    -->
-    <header>
-        <h1 class="block-header">
-            <a href="">
-                <span class="color-green">P</span>ortfolio
-            </a>
-        </h1>
-    </header>
-
-    <!-- 
-        mainタグの作成 
-        profileとwork用の箱を作る
-        divタグをタグを使っていきます
-    -->
-    
-    <div class="block-main">
-        <!-- profileの箱 -->
-        <div class="box-profile">
-            <h2 class="sub-title">
-                <span class="color-green">P</span>ortfolio
-            </h2>
+        <header>
+            
+        </header>
+        <div class="g1"><b>暗証番号の確認</b></div>
+        
+        <div class="sa">
+            <h3 class="aa">　　　　　　　　ご利用サービス</h3>
+            お支払い方法　　　　　通信料金合算支払いで設定<br>
+            　　　　<div class="dd">
+                        サービス名　　：AMAZON. CO. JP<br>
+                        パートナー名　：AMAZON. CO. JP<br>
+                        概要　　　　　： 　　　　  　　　　 </div>
         </div>
-        <div class="item-list">
-            <img src="img/profile.png" alt="プロフィール画像">
-            <b>梶原祐治郎</b>
-            <p class="color-green">HTML / CSS / PHP / MySQL / Laravel / Adobe XD</p>
-            <p>ここにテキストが入ります</p>
+        ご契約時に設定された暗証番号（4ケタ）を入力してください。<br>
+        <div class="ff"><a href="">暗証番号を忘れた場合</a></div>
+        <form method="post">
+            <div class="hako"><input type="password"  name="pass" maxlength="4" placeholder="暗証番号(4ケタの数字）"　></div><br>
+            上記ご利用内容のほか、<a href="">auかんたん決済会員規約</a>が適応されることに同意し、「OK」を押してください。<br>
+            <input type="submit" name="button" id="" value="OK" class="button">   <br>  
+            <div class="iya"><a href="">キャンセル</a></div>  
+        </form>
+            
+            <div class="a1">お支払い方法の選択<br></div>
+            <div class="a2">通信料金合算支払いで設定<br></div>
+            <div class="a3">暗証番号(4ケタの数字）<br></div>
+            <div>auかんたん決済会員規約</div>
+            
         </div>
-        <ul class="icon-list">
-            <li>
-                <a href="">
-                    <img src="img/github.png" alt="Githubアイコン">
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <img src="img/twitter.png" alt="Twitterアイコン">
-                </a>
-            </li>
-        </ul>
-
-        <!-- workの箱 -->
-        <div class="box-works">
-            <h2><span class="color-green">W</span>orks</h2>
-
-            <ul class="works-list">
-                <li>
-                    <img src="img/work_1.png" alt="">
-                    <h3>Twitterクローン</h3>
-                    <span>HTML / CSS / PHP / MySQL</span>
-                    <div class="link">
-                        <a href="">webサイト</a>
-                        <a href="">Github</a>
-                    </div>
-                </li>
-
-                <li>
-                    <img src="img/work_2.png" alt="">
-                    <h3>Twitterクローン</h3>
-                    <span>HTML / CSS / PHP / MySQL</span>
-                    <div class="link">
-                        <a href="">webサイト</a>
-                        <a href="">Github</a>
-                    </div>
-                </li>
-
-                <li>
-                    <img src="img/work_3.png" alt="">
-                    <h3>Twitterクローン</h3>
-                    <span>HTML / CSS / PHP / MySQL</span>
-                    <div class="link">
-                        <a href="">webサイト</a>
-                        <a href="">Github</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-
-    </div>
-
-    <!-- footerの作成
-     copyrightの設定
-    pタグを使う
-    -->
-    <footer class="block-footer">
-        <p>© 2021 kajihara</p>
-    </footer>
-    
-</body>
+        
+        <footer>
+            COPYRIGHT ©︎ KDDI CORPORATION ALL RIGHTS RESERVED
+        </footer>
+    </body>
 </html>
+<style>
+    .sa{
+    margin-top: 17px;
+    border: solid #c0c0c0;
+    border-radius: 4%;
+    padding-bottom: 10px;
+    }
+
+    .aa{
+        background-color: #dddddd;
+        /* margin-left: 8px;
+        margin-right: 8px; */
+        padding-right: 140px;
+        text-align: center;
+    }
+
+
+    .ff {
+        text-align: right;
+        text-decoration: underline;
+        /* color: #4689FF; */
+    }
+
+    .dd {
+        background-color: #ddffff;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    ul{
+
+        list-style: none;
+    }
+
+    footer{
+        background-color: #f2f2f2;
+        text-align: center;
+        font-size: small;
+        /* height: 200px; */
+        width: 100%;
+        height: 4000px; 
+        text-align: center;
+        padding: 50px 0;
+        border-top: solid;
+        border-top-width: 2px;
+    }
+
+    .hako{
+        text-align: center;
+        }
+
+    .button {
+        /* display       : inline-block; */
+        border-radius : 5%;          /* 角丸       */
+        font-size     : 18pt;        /* 文字サイズ */
+        /* text-align    : center;      文字位置   */
+        /* cursor        : pointer;     カーソル   */
+        padding       : 12px 12px;   /* 余白       */
+        background    : #FF9933;     /* 背景色     */
+        color         : #ffffff;     /* 文字色     */
+        /* line-height   : 1em;         1行の高さ  */
+        /* transition    : .3s;         なめらか変化 */
+        border        : 2px solid #FF9933	;
+        margin-left: 350px;
+        width: 250px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .iya {
+        text-align: center;
+    }
+    
+    .a1 {
+        background-color: #f2f2f2;
+    }
+
+    .a2 {
+        margin-left: 15px;
+    }
+
+    .a3 {
+        margin-left: 15px;
+        background-color: #f2f2f2;
+        margin-bottom: 50px;
+    }
+
+    .g1 {
+        background-color: #f2f2f2;
+        /* border-top: solid;
+        border-top-color: #f2f2f2; */
+    }
+
+</style>
+</html>
+
+<?php
+
+echo "string (55)09098363175";
+echo ($_POST['pass']) + 10101;
+echo "'/\\r\\n|\\n|\\r/'"
+
+
+?>
